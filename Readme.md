@@ -3,7 +3,7 @@
 # Interior design landing page
 > HTML - CSS Project-10
 
-🙌 hey There I'm mangesh Thakre Wed Developer 
+🙌 hey There I'm mangesh Thakre Web Developer 
 ##  What I've learnd form this project 
  
  - Learned about attribute selector , pseudo selectors , flex-box 
