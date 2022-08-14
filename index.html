@@ -12,14 +12,17 @@
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- <link rel="stylesheet" href="./css/all.min.css"> -->
- 
+
     <title>HTML-CSS-Project-10</title>
   </head>
-  <body>
+  <body class="body">
     <nav>
       <div>
         <h1>LOGO</h1>
@@ -34,12 +37,15 @@
           <li>Services</li>
         </ul>
         <div>
-          <img src="./image/call.png" alt="">
+          <img src="./image/call.png" alt="" />
           <div>
             <h3>Call us</h3>
             <h3>+38 (097) 654 54 34</h3>
           </div>
         </div>
+      </div>
+      <div class="buttoncontainer">
+        <div class="hamburger-menu"></div>
       </div>
     </nav>
     <div class="container">
@@ -49,17 +55,37 @@
           CareAbout Detail
         </h1>
         <button>LEARN MORE</button>
-    </div>
-    <div class="puzle">
-      <div><img src="./image/puzzle.svg" alt="puzzle"></div>
-      <h4>We create your space better based on your own idea</h4>
-      <div class="extra"></div>
-    </div>
-    <div class="light">
-      <div><img src="./image/light.png" alt=""></div>
-      <h4>Innovation idess. stylish design<br />for home & Business</h4>
-      <div class="light-extra"></div>
-    </div>
+      </div>
+      <div class="puzle">
+        <div><img src="./image/puzzle.svg" alt="puzzle" /></div>
+        <h4>We create your space better based on your own idea</h4>
+        <div class="extra"></div>
+      </div>
+      <div class="light">
+        <div><img src="./image/light.png" alt="" /></div>
+        <h4>Innovation idess. stylish design<br />for home & Business</h4>
+        <div class="light-extra"></div>
+      </div>
     </div>
   </body>
+
+
+
+  <script>
+  
+    // const herocontainer = document.querySelector(".hero-container")
+    const body = document.querySelector(".body")
+    const sidebarMenu = document.querySelector(".nav-right")
+    const buttoncontainer =document.querySelector(".buttoncontainer")
+    const burgermenu = document.querySelector(".hamburger-menu")
+    buttoncontainer.addEventListener('click' , (e)=>{
+      burgermenu.classList.toggle("cross-menu")
+      sidebarMenu.classList.toggle("close")
+      body.classList.toggle("hide-scroll")
+      // herocontainer.classList.toggle("shadow")
+      
+    })
+  
+  </script>
+
 </html>
