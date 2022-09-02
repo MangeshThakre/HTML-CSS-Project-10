@@ -14,4 +14,4 @@
  ##  _[live project link](https://full-stack-js-html-css-project-10.netlify.app/ "HTML-CSS_Project-10" )_
 
 ## Screenshort
-![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-10/blob/master/project-10.png)
+![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-10/blob/master/project%20img/My%20project%20(6).png)
